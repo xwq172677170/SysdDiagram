@@ -1,9 +1,138 @@
-<mxfile host="app.diagrams.net" modified="2023-07-19T14:24:19.117Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" version="21.6.3" etag="IoWWdmRuGNgdcTPg3JWk" type="github">
+<mxfile host="app.diagrams.net" modified="2023-07-19T17:50:38.648Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="MZadHa5uRR7JRJ-g9q3G" version="21.6.3" type="github">
   <diagram name="Page-1" id="oEwQ8ChUB2obOEuqiUpR">
-    <mxGraphModel>
+    <mxGraphModel dx="889" dy="827" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="9MbfvdkKQbkoyR23_Wzp-3" value="URL Frontier&lt;br&gt;(FIFO Queue)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="220" y="240" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="9MbfvdkKQbkoyR23_Wzp-4" value="&lt;br&gt;HTML Parser&lt;br&gt;Distribute by locality" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="380" y="240" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="9MbfvdkKQbkoyR23_Wzp-5" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="9MbfvdkKQbkoyR23_Wzp-3" target="9MbfvdkKQbkoyR23_Wzp-4">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="430" y="380" as="sourcePoint" />
+            <mxPoint x="480" y="330" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9MbfvdkKQbkoyR23_Wzp-6" value="Content Processor&lt;br&gt;Dedup" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="540" y="240" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="9MbfvdkKQbkoyR23_Wzp-7" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="9MbfvdkKQbkoyR23_Wzp-4" target="9MbfvdkKQbkoyR23_Wzp-6">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="530" y="410" as="sourcePoint" />
+            <mxPoint x="580" y="360" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9MbfvdkKQbkoyR23_Wzp-8" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="9MbfvdkKQbkoyR23_Wzp-6">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="710" y="310" as="sourcePoint" />
+            <mxPoint x="710" y="270" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9MbfvdkKQbkoyR23_Wzp-9" value="Content Storage" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="710" y="230" width="90" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="9MbfvdkKQbkoyR23_Wzp-11" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="9MbfvdkKQbkoyR23_Wzp-10">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="630" y="370" as="sourcePoint" />
+            <mxPoint x="600" y="390" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="600" y="390" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9MbfvdkKQbkoyR23_Wzp-12" value="URL Processor&lt;br&gt;Dedup" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="380" y="360" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="9MbfvdkKQbkoyR23_Wzp-13" value="" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="9MbfvdkKQbkoyR23_Wzp-10" target="9MbfvdkKQbkoyR23_Wzp-12">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="50" y="460" as="sourcePoint" />
+            <mxPoint x="100" y="410" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9MbfvdkKQbkoyR23_Wzp-16" value="" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.563;entryY=1.003;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="9MbfvdkKQbkoyR23_Wzp-12" target="9MbfvdkKQbkoyR23_Wzp-3">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="130" y="460" as="sourcePoint" />
+            <mxPoint x="120" y="300" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="288" y="390" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9MbfvdkKQbkoyR23_Wzp-17" value="URL DB" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="70" y="360" width="125" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="9MbfvdkKQbkoyR23_Wzp-18" value="" style="endArrow=classic;html=1;rounded=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="9MbfvdkKQbkoyR23_Wzp-17">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="320" y="390" as="sourcePoint" />
+            <mxPoint x="350" y="440" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9MbfvdkKQbkoyR23_Wzp-19" value="Operational Console" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="70" y="240" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="9MbfvdkKQbkoyR23_Wzp-20" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="190" y="270" as="sourcePoint" />
+            <mxPoint x="220" y="270" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9MbfvdkKQbkoyR23_Wzp-21" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="9MbfvdkKQbkoyR23_Wzp-6" target="9MbfvdkKQbkoyR23_Wzp-10">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="600" y="300" as="sourcePoint" />
+            <mxPoint x="600" y="390" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9MbfvdkKQbkoyR23_Wzp-10" value="Extract Links" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="540" y="360" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="9MbfvdkKQbkoyR23_Wzp-22" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.75;entryY=0;entryDx=0;entryDy=0;exitX=0.75;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="9MbfvdkKQbkoyR23_Wzp-23" target="9MbfvdkKQbkoyR23_Wzp-4">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="430" y="170" as="sourcePoint" />
+            <mxPoint x="580" y="40" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9MbfvdkKQbkoyR23_Wzp-23" value="Internet" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="380" y="110" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="9MbfvdkKQbkoyR23_Wzp-25" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.192;entryY=1.013;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="9MbfvdkKQbkoyR23_Wzp-23">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="403" y="240" as="sourcePoint" />
+            <mxPoint x="370" y="190" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9MbfvdkKQbkoyR23_Wzp-26" value="Client Side Rate Limiter&lt;br&gt;short timeout" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="9MbfvdkKQbkoyR23_Wzp-25">
+          <mxGeometry x="0.2389" y="1" relative="1" as="geometry">
+            <mxPoint y="12" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9MbfvdkKQbkoyR23_Wzp-27" value="DFS - Too Deep&lt;br style=&quot;font-size: 10px;&quot;&gt;BFS - Urls for same host grouped together, could lead to DOS attack&amp;nbsp;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="50" y="155" width="140" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="9MbfvdkKQbkoyR23_Wzp-28" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.615;entryY=1.005;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.085;exitY=-0.047;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="9MbfvdkKQbkoyR23_Wzp-3" target="9MbfvdkKQbkoyR23_Wzp-27">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="220" y="260" as="sourcePoint" />
+            <mxPoint x="270" y="210" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9MbfvdkKQbkoyR23_Wzp-29" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" target="9MbfvdkKQbkoyR23_Wzp-30">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="270" y="240" as="sourcePoint" />
+            <mxPoint x="270" y="180" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9MbfvdkKQbkoyR23_Wzp-30" value="Process by Priority based on source, click rate and update frequence" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="190" y="130" width="110" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="9MbfvdkKQbkoyR23_Wzp-34" value="DNS Cache" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="380" y="240" width="70" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="9MbfvdkKQbkoyR23_Wzp-36" value="Crawl State DB&lt;br&gt;(Rerun)" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="550" y="110" width="110" height="80" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
