@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-07-19T06:47:31.499Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="J38EiZlQS1297GnHXdh5" version="21.6.2" type="github">
+<mxfile host="app.diagrams.net" modified="2023-07-23T17:14:55.814Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="tWdp0kMl4vvc94HbpouR" version="21.6.5" type="github">
   <diagram name="Page-1" id="gNQH_gU16ZZKBDsQbHNw">
     <mxGraphModel dx="2266" dy="837" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -174,10 +174,10 @@
             <mxPoint x="740" y="530" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="9Y0DtLVm8XDQwjverHVP-1" value="1. Snowflakes by Twitter&lt;br&gt;timestamp + worker number + sequence number&lt;br&gt;globally unique yet roughly sort by timestamp&lt;br&gt;2.&amp;nbsp;Ticket Server by&amp;nbsp;&lt;span style=&quot;text-align: center;&quot;&gt;Flickr&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;text-align: center;&quot;&gt;Single MySql&amp;nbsp;&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="9Y0DtLVm8XDQwjverHVP-1" value="1. Snowflakes by Twitter&lt;br&gt;timestamp + worker number + sequence number&lt;br&gt;globally unique yet roughly sort by timestamp&lt;br&gt;2.&amp;nbsp;Ticket Server by&amp;nbsp;&lt;span style=&quot;text-align: center;&quot;&gt;Flickr&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;text-align: center;&quot;&gt;Single MySql&amp;nbsp;&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="600" y="110" width="280" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="9Y0DtLVm8XDQwjverHVP-3" value="301 Permanently moved - Reduce server load&lt;br&gt;302 Temporarily move - Accurate analytics" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="9Y0DtLVm8XDQwjverHVP-3" value="301 Permanently moved - Reduce server load&lt;br&gt;302 Temporarily moved - Accurate analytics" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="190" y="570" width="290" height="40" as="geometry" />
         </mxCell>
       </root>
