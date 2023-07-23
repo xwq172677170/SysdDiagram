@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-07-23T17:14:55.814Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="tWdp0kMl4vvc94HbpouR" version="21.6.5" type="github">
+<mxfile host="app.diagrams.net" modified="2023-07-23T17:16:04.906Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="bUFiJR7l_TBCW2FXuW8J" version="21.6.5" type="github">
   <diagram name="Page-1" id="gNQH_gU16ZZKBDsQbHNw">
     <mxGraphModel dx="2266" dy="837" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -162,7 +162,7 @@
             <mxPoint x="960" y="330" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="5ViKv1JCg8p07AZtkxQX-51" value="&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Alternatives to cleanup service:&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;1. DB&amp;nbsp;Automatic Data Expiration (set TTL when creation in Cassandra)&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;2. Passive Delete - Only Delete when the data is access again - bad, could overflown&lt;/span&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+        <mxCell id="5ViKv1JCg8p07AZtkxQX-51" value="&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Alternatives to cleanup service:&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;1. DB&amp;nbsp;Automatic Data Expiration (set TTL when creation in Cassandra)&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;2. Passive Delete - Only Delete when the data is access again - bad, could overflow&lt;/span&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="920" y="240" width="180" height="110" as="geometry" />
         </mxCell>
         <mxCell id="5ViKv1JCg8p07AZtkxQX-55" value="S3" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" parent="1" vertex="1">
