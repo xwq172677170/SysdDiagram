@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-10-30T01:14:52.079Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36" etag="2zHUNawUC4kLTFHg1aCt" version="22.0.8" type="github">
+<mxfile host="app.diagrams.net" modified="2023-10-30T13:25:35.109Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36" etag="FsttCRzsGY0gFfhrr2GU" version="22.0.8" type="github">
   <diagram name="Page-1" id="w0UfUpUUfux1YmTYL3Qv">
-    <mxGraphModel dx="2412" dy="830" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="3030" dy="870" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -86,8 +86,8 @@
             <mxPoint x="630" y="320" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="uigYJwYVuBVHVjmUfmwh-26" value="Order" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="-100" y="330" width="60" height="30" as="geometry" />
+        <mxCell id="uigYJwYVuBVHVjmUfmwh-26" value="Order Guaranteed within same partition" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="-160" y="330" width="240" height="30" as="geometry" />
         </mxCell>
         <mxCell id="uigYJwYVuBVHVjmUfmwh-27" value="" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="260" y="360" width="120" height="340" as="geometry" />
@@ -128,7 +128,7 @@
             <mxPoint x="500" y="540" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="r8DuBiU2IM3-_VSogjTA-2" value="At least once + At most once = Exact once" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="r8DuBiU2IM3-_VSogjTA-2" value="At least once + At most once = Exact once" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="440" y="650" width="240" height="30" as="geometry" />
         </mxCell>
       </root>
