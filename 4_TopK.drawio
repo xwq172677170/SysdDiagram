@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-11-03T15:56:38.860Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="VlEe3G2cn8tPRWLinkQZ" version="22.0.8" type="github">
+<mxfile host="app.diagrams.net" modified="2023-11-05T03:46:10.051Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="vSYfm4tvdCgyLhGIb3kZ" version="22.0.8" type="github">
   <diagram name="Page-1" id="ybURVlBU5D4kXEZvElC1">
     <mxGraphModel dx="1562" dy="830" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -61,7 +61,7 @@
         <mxCell id="8y-FWkT5chtIzJiCy5gt-38" value="SQL, NoSQL&lt;br&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Storage by Interval&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Replicated&lt;/span&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="820" y="440" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="8y-FWkT5chtIzJiCy5gt-42" value="1. pre-aggregation will greatly reduce the number of messages goes into Kafka&lt;br&gt;2. Serializes data in compact binary format.(avro/protobuf)&lt;br style=&quot;font-size: 10px;&quot;&gt;Saves Network IO" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;" parent="1" vertex="1">
+        <mxCell id="8y-FWkT5chtIzJiCy5gt-42" value="1. pre-aggregation will greatly reduce the number of messages goes into Kafka&lt;br&gt;2. Serializes data in compact binary format.(avro/protobuf)&lt;br style=&quot;font-size: 10px;&quot;&gt;Saves Network IO&lt;br&gt;Con - loses detail on individual event" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;" parent="1" vertex="1">
           <mxGeometry x="51.4" y="640" width="220" height="70" as="geometry" />
         </mxCell>
         <mxCell id="8y-FWkT5chtIzJiCy5gt-43" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="8y-FWkT5chtIzJiCy5gt-2" edge="1">
@@ -129,13 +129,13 @@
         <mxCell id="5Jaj-E77fAwwfaJCabGh-2" value="Data Sampling" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="465" y="345" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="1iikRygat-jRjVivOJMq-1" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.128;exitY=1.007;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="8y-FWkT5chtIzJiCy5gt-8">
+        <mxCell id="1iikRygat-jRjVivOJMq-1" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.128;exitY=1.007;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="8y-FWkT5chtIzJiCy5gt-8" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="480" y="870" as="sourcePoint" />
             <mxPoint x="480" y="800" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="1iikRygat-jRjVivOJMq-2" value="1. Data Replication&lt;br&gt;2. Partition Rebalancing&lt;br&gt;3. Hot Shard Problem&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+        <mxCell id="1iikRygat-jRjVivOJMq-2" value="1. Data Replication&lt;br&gt;2. Partition Rebalancing&lt;br&gt;3. Hot Shard Problem&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" parent="1" vertex="1">
           <mxGeometry x="470" y="800" width="190" height="70" as="geometry" />
         </mxCell>
       </root>
