@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-11-08T13:17:58.268Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="6jEBHczi_FSH-O-R5Pzx" version="22.0.8" type="github">
+<mxfile host="app.diagrams.net" modified="2023-11-08T17:01:22.255Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="7H4CUy0mXxYGwaE9y9wW" version="22.0.8" type="github">
   <diagram name="Page-1" id="x75RozoV3CZuHT7u76bP">
-    <mxGraphModel dx="2180" dy="870" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1562" dy="830" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -237,7 +237,7 @@
         <mxCell id="LAH6ypRobO4UC6UzMiDk-3" value="LastSeenTs by UserId" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="728" y="280" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="QhFFpql4eRGsi3iwS_dq-1" value="Web Socket - Bi-directional, expensive&lt;br&gt;SSE(Server Sent Events)&lt;br&gt;Light weight" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+        <mxCell id="QhFFpql4eRGsi3iwS_dq-1" value="Web Socket - Bi-directional, no limit on number of connections&lt;br&gt;SSE(Server Sent Events)&lt;br&gt;Uni-directional, 6 connections per browser" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
           <mxGeometry x="583" y="530" width="167" height="80" as="geometry" />
         </mxCell>
       </root>
