@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-11-20T02:36:21.764Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="ijEbgpBijPJLYDddN0AS" version="22.1.3" type="github">
+<mxfile host="app.diagrams.net" modified="2023-11-20T03:03:45.100Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="uh8QXd24GuL2XrvUjE7W" version="22.1.3" type="github">
   <diagram name="Page-1" id="Y6eKsyUqFfshavB-rKo6">
     <mxGraphModel dx="2074" dy="750" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -27,15 +27,15 @@
         </mxCell>
         <mxCell id="_fjMiLKVwGqbWhbh890U-18" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" target="_fjMiLKVwGqbWhbh890U-20">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="645" y="720" as="sourcePoint" />
-            <mxPoint x="710" y="715" as="targetPoint" />
+            <mxPoint x="645" y="675" as="sourcePoint" />
+            <mxPoint x="710" y="670" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="_fjMiLKVwGqbWhbh890U-19" value="DB" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
-          <mxGeometry x="690" y="580" width="130" height="60" as="geometry" />
+          <mxGeometry x="690" y="580" width="130" height="50" as="geometry" />
         </mxCell>
         <mxCell id="_fjMiLKVwGqbWhbh890U-20" value="Clearing" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="690" y="690" width="130" height="60" as="geometry" />
+          <mxGeometry x="690" y="655" width="130" height="40" as="geometry" />
         </mxCell>
         <mxCell id="_fjMiLKVwGqbWhbh890U-24" value="FrondEnd&lt;br&gt;Service" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="320" y="460" width="120" height="60" as="geometry" />
@@ -67,25 +67,39 @@
             <mxPoint x="760" y="480" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="_fjMiLKVwGqbWhbh890U-33" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" target="_fjMiLKVwGqbWhbh890U-3">
+        <mxCell id="_fjMiLKVwGqbWhbh890U-33" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.25;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" target="_fjMiLKVwGqbWhbh890U-30">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="430" y="670" as="sourcePoint" />
-            <mxPoint x="350" y="650" as="targetPoint" />
+            <mxPoint x="440" y="670" as="sourcePoint" />
+            <mxPoint x="530" y="540" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="70" y="670" />
+              <mxPoint x="250" y="670" />
+              <mxPoint x="250" y="540" />
+              <mxPoint x="510" y="540" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="_fjMiLKVwGqbWhbh890U-34" value="UDP Multi-casting" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="_fjMiLKVwGqbWhbh890U-33">
           <mxGeometry x="-0.2706" y="1" relative="1" as="geometry">
-            <mxPoint as="offset" />
+            <mxPoint y="-41" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="_fjMiLKVwGqbWhbh890U-35" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="644" y="614" as="sourcePoint" />
-            <mxPoint x="689" y="614" as="targetPoint" />
+            <mxPoint x="644" y="604" as="sourcePoint" />
+            <mxPoint x="689" y="604" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="_fjMiLKVwGqbWhbh890U-36" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" target="_fjMiLKVwGqbWhbh890U-37">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="645" y="740" as="sourcePoint" />
+            <mxPoint x="710" y="735" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_fjMiLKVwGqbWhbh890U-37" value="Reconciliation" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="690" y="720" width="130" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="_fjMiLKVwGqbWhbh890U-39" value="Partition by Ticker" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="670" y="475" width="160" height="75" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
