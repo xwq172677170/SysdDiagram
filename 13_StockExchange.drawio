@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-11-20T03:03:45.100Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="uh8QXd24GuL2XrvUjE7W" version="22.1.3" type="github">
+<mxfile host="app.diagrams.net" modified="2023-11-20T03:03:51.873Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="mcHIRlZc5C-bTUZ3402d" version="22.1.3" type="github">
   <diagram name="Page-1" id="Y6eKsyUqFfshavB-rKo6">
     <mxGraphModel dx="2074" dy="750" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -99,7 +99,7 @@
           <mxGeometry x="690" y="720" width="130" height="40" as="geometry" />
         </mxCell>
         <mxCell id="_fjMiLKVwGqbWhbh890U-39" value="Partition by Ticker" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="670" y="475" width="160" height="75" as="geometry" />
+          <mxGeometry x="630" y="490" width="160" height="75" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
