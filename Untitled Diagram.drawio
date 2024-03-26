@@ -1,9 +1,12 @@
-<mxfile host="app.diagrams.net" modified="2024-02-27T19:24:54.582Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36 Edg/117.0.2045.47" version="23.1.7" etag="AezuD3nY3MYBjcER0XZZ" type="github">
+<mxfile host="app.diagrams.net" modified="2024-03-26T19:16:39.470Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36" etag="MGaYhm8ZKxQcMUWFCtJJ" version="24.2.0" type="github">
   <diagram name="Page-1" id="ChVF2Al1DIMQeZEJTUJ6">
-    <mxGraphModel>
+    <mxGraphModel dx="794" dy="520" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="W5cGIMRy6-2y4t1nKLGQ-2" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;SQL vs NoSQL&lt;/h1&gt;&lt;p&gt;SQL: 1. Consistent Structured, Relational, ACID Compliant&lt;/p&gt;&lt;p&gt;NoSQL: Unstructured, Scalable,&amp;nbsp;&amp;nbsp;&lt;/p&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="70" y="110" width="570" height="400" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
