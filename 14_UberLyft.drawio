@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-12-22T16:28:22.021Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="0PHTHJfpjAmvRdmHpL_Q" version="22.1.11" type="github">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36 Edg/137.0.0.0" version="28.2.5">
   <diagram name="Page-1" id="Y6eKsyUqFfshavB-rKo6">
-    <mxGraphModel dx="2074" dy="738" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="2058" dy="1112" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -90,6 +90,9 @@
         </mxCell>
         <mxCell id="6CocpNowR1pE_EUjfdPT-5" value="Trip Data" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="490" y="420" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="jU77QucXAsKBHoHEZJI7-1" value="GeoHashing:&lt;div&gt;1. Good for even distribution&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;QuadTree (Divide the space with given k value):&lt;/span&gt;&lt;div&gt;1. Good for uneven density&lt;/div&gt;&lt;div&gt;2. Infrequent Updates (expensive to re-index)&lt;/div&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="300" y="720" width="550" height="230" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
