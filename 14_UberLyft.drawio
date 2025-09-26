@@ -94,8 +94,11 @@
         <mxCell id="jU77QucXAsKBHoHEZJI7-1" value="&lt;div&gt;&lt;b&gt;Geospacial Searching &amp;amp; Indexing&lt;/b&gt;&lt;/div&gt;[&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Redis]GeoHashing:&lt;/span&gt;&lt;div&gt;&lt;div&gt;1. Good for even distribution&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;QuadTree (Divide the space with given k value):&lt;/span&gt;&lt;div&gt;1. Good for uneven density&lt;/div&gt;&lt;div&gt;2. Infrequent Updates (expensive to re-index)&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="40" y="620" width="550" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="jU77QucXAsKBHoHEZJI7-2" value="&lt;b&gt;Consistency of&amp;nbsp;Rider &amp;amp; Driver Matching&lt;/b&gt;&lt;div&gt;&lt;div&gt;1. No more than one request sent per ride&lt;/div&gt;&lt;div&gt;2. No more than one request received per driver&lt;/div&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="jU77QucXAsKBHoHEZJI7-2" value="&lt;b&gt;Consistency of&amp;nbsp;Rider &amp;amp; Driver Matching&lt;/b&gt;&lt;div&gt;&lt;div&gt;1. No more than one request sent per ride&lt;/div&gt;&lt;div&gt;2. No more than one request received per driver&lt;/div&gt;&lt;/div&gt;&lt;div&gt;3. Distributed Lock (Redis)&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="400" y="610" width="270" height="65" as="geometry" />
+        </mxCell>
+        <mxCell id="jU77QucXAsKBHoHEZJI7-3" value="&lt;b&gt;Surge Handling&lt;/b&gt;&lt;br&gt;&lt;div&gt;&lt;div&gt;1. Nodes coordination&lt;/div&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="400" y="700" width="270" height="65" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
