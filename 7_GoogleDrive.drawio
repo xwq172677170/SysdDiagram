@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-07-21T04:14:37.578Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="Rw266g_f18BU_qP0BlyI" version="21.6.3" type="github">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36" version="28.2.5">
   <diagram name="Page-1" id="MBPPT8XmERE-SGZNv0NV">
-    <mxGraphModel dx="2266" dy="837" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1210" dy="1102" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -163,6 +163,21 @@
             <mxPoint x="-280" y="430" as="sourcePoint" />
             <mxPoint x="-230" y="380" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="NToE9WNLfPGpyUW-ZeQV-1" value="Storage&lt;div&gt;1. Store raw bytes of the files&lt;/div&gt;&lt;div&gt;2. Store meta data of the files&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="40" y="820" width="200" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="NToE9WNLfPGpyUW-ZeQV-3" value="2 Workflows&lt;br&gt;&lt;div&gt;1. Handle Upload&lt;/div&gt;&lt;div&gt;2. Sync Updates&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="310" y="820" width="200" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="NToE9WNLfPGpyUW-ZeQV-4" value="Enhancements to Handle Large File (&amp;gt; 10 MB)&lt;div&gt;1. Upload directly to S3 with pre-signed URL.&lt;/div&gt;&lt;div&gt;2. Chunk File&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;2.1 Hash of each chunk to compare (Fingerprinting)\&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;2.2 Change Data Capture (S3 Notification)&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="40" y="910" width="450" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="NToE9WNLfPGpyUW-ZeQV-5" value="CDN? No because user upload/download their own file" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="570" y="815" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="NToE9WNLfPGpyUW-ZeQV-6" value="Compression&lt;div&gt;Encryption&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="540" y="910" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
