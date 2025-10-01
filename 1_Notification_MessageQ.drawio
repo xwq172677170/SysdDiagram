@@ -134,6 +134,12 @@
         <mxCell id="Zn0t2Rko6OTNFW_Vc6NQ-1" value="Handle Hot Partitions&lt;div&gt;1. Regenerate key (Partition key)&lt;/div&gt;&lt;div&gt;2. Append Number 1 - N to the key.&lt;/div&gt;&lt;div&gt;3. Backpressure.&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
           <mxGeometry x="-430" y="630" width="190" height="80" as="geometry" />
         </mxCell>
+        <mxCell id="Zn0t2Rko6OTNFW_Vc6NQ-2" value="Producer&lt;div&gt;1. Batch messages&lt;/div&gt;&lt;div&gt;2. Compress Messages&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="-425" y="520" width="195" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Zn0t2Rko6OTNFW_Vc6NQ-3" value="Retention Policy&lt;br&gt;&lt;div&gt;1. retention.ms&lt;/div&gt;&lt;div&gt;2. retention.bytes&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="-425" y="750" width="195" height="60" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
