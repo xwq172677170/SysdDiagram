@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-11-08T17:01:22.255Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="7H4CUy0mXxYGwaE9y9wW" version="22.0.8" type="github">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36 Edg/137.0.0.0" version="28.2.5">
   <diagram name="Page-1" id="x75RozoV3CZuHT7u76bP">
-    <mxGraphModel dx="1562" dy="830" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="2058" dy="1112" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -237,8 +237,14 @@
         <mxCell id="LAH6ypRobO4UC6UzMiDk-3" value="LastSeenTs by UserId" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="728" y="280" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="QhFFpql4eRGsi3iwS_dq-1" value="Web Socket - Bi-directional, no limit on number of connections&lt;br&gt;SSE(Server Sent Events)&lt;br&gt;Uni-directional, 6 connections per browser" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+        <mxCell id="QhFFpql4eRGsi3iwS_dq-1" value="Web Socket - Bi-directional, no limit on number of connections&lt;br&gt;SSE(Server Sent Events)&lt;br&gt;Uni-directional, 6 connections per browser" style="rounded=0;whiteSpace=wrap;html=1;align=left;" parent="1" vertex="1">
           <mxGeometry x="583" y="530" width="167" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="wcO3zy9yoQmPOoIFirLr-1" value="Offline Messages&lt;div&gt;InBox&lt;/div&gt;&lt;div&gt;RecipientId&lt;/div&gt;&lt;div&gt;MessageId&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="130" y="730" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="wcO3zy9yoQmPOoIFirLr-2" value="Send/Receive Media&lt;div&gt;pre signed url&amp;nbsp;&lt;/div&gt;&lt;div&gt;Client &amp;lt;---&amp;gt;&amp;nbsp;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;S3(Blob)&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="280" y="730" width="132.5" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
