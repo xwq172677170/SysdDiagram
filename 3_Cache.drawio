@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36 Edg/137.0.0.0" version="28.2.3">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36 Edg/137.0.0.0" version="28.2.5">
   <diagram name="Page-1" id="P5muPFHz2gZ1AS87yahM">
     <mxGraphModel dx="2058" dy="1112" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -216,37 +216,40 @@
         <mxCell id="BZU4ZhYAYziiRwtoTA7B-4" value="Multi Layer Cache&lt;br style=&quot;border-color: var(--border-color); color: rgb(0, 0, 0); font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(251, 251, 251); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;&quot;&gt;&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(251, 251, 251); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;Local vs Remote Cache&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="505" y="669.25" width="120" height="65.5" as="geometry" />
         </mxCell>
-        <mxCell id="KDX1G06SCl55TOmQuQN1-1" value="LSM&amp;nbsp;&lt;span style=&quot;color: rgb(238, 240, 255); font-family: &amp;quot;Google Sans&amp;quot;, Roboto, Arial, sans-serif; font-size: 16px; background-color: rgb(31, 31, 31);&quot;&gt;Log-Structured Merge&amp;nbsp;&lt;/span&gt;Tree (Optimized for fast write)&lt;div&gt;&lt;br&gt;&lt;div&gt;[WRITE]&lt;br&gt;&lt;div&gt;1. Write is buffered in memory [memtable]&lt;/div&gt;&lt;div&gt;2. Sort [balanced binary tree] and flush to disk as SSTable&lt;/div&gt;&lt;div&gt;3. SSTables are compacted and merged&lt;/div&gt;&lt;/div&gt;&lt;div&gt;4. Deletion is implemented as tombstone&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;[READ]&lt;/div&gt;&lt;div&gt;1. Search Memtable/SSTable at every level&lt;/div&gt;&lt;/div&gt;&lt;div&gt;2. Key doesn&#39;t exist -- expensive&lt;/div&gt;&lt;div&gt;3. Due to #2 a bloom filter is added at each level, to give a firm no.&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+        <mxCell id="KDX1G06SCl55TOmQuQN1-1" value="LSM&amp;nbsp;&lt;span style=&quot;color: rgb(238, 240, 255); font-family: &amp;quot;Google Sans&amp;quot;, Roboto, Arial, sans-serif; font-size: 16px; background-color: rgb(31, 31, 31);&quot;&gt;Log-Structured Merge&amp;nbsp;&lt;/span&gt;Tree (Optimized for fast write)&lt;div&gt;&lt;br&gt;&lt;div&gt;[WRITE]&lt;br&gt;&lt;div&gt;1. Write is buffered in memory [memtable]&lt;/div&gt;&lt;div&gt;2. Sort [balanced binary tree] and flush to disk as SSTable&lt;/div&gt;&lt;div&gt;3. SSTables are compacted and merged&lt;/div&gt;&lt;/div&gt;&lt;div&gt;4. Deletion is implemented as tombstone&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;[READ]&lt;/div&gt;&lt;div&gt;1. Search Memtable/SSTable at every level&lt;/div&gt;&lt;/div&gt;&lt;div&gt;2. Key doesn&#39;t exist -- expensive&lt;/div&gt;&lt;div&gt;3. Due to #2 a bloom filter is added at each level, to give a firm no.&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" parent="1" vertex="1">
           <mxGeometry x="980" y="620" width="570" height="170" as="geometry" />
         </mxCell>
-        <mxCell id="KDX1G06SCl55TOmQuQN1-2" value="Memtable" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="KDX1G06SCl55TOmQuQN1-2" value="Memtable" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="990" y="810" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="KDX1G06SCl55TOmQuQN1-3" value="SSTable&lt;div&gt;[many small]&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="KDX1G06SCl55TOmQuQN1-3" value="SSTable&lt;div&gt;[many small]&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="1200" y="810" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="KDX1G06SCl55TOmQuQN1-4" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="KDX1G06SCl55TOmQuQN1-2" target="KDX1G06SCl55TOmQuQN1-3">
+        <mxCell id="KDX1G06SCl55TOmQuQN1-4" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="KDX1G06SCl55TOmQuQN1-2" target="KDX1G06SCl55TOmQuQN1-3" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="1280" y="1010" as="sourcePoint" />
             <mxPoint x="1330" y="960" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="KDX1G06SCl55TOmQuQN1-5" value="SSTable&lt;div&gt;[few large]&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="KDX1G06SCl55TOmQuQN1-5" value="SSTable&lt;div&gt;[few large]&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="1410" y="810" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="KDX1G06SCl55TOmQuQN1-6" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="KDX1G06SCl55TOmQuQN1-3" target="KDX1G06SCl55TOmQuQN1-5">
+        <mxCell id="KDX1G06SCl55TOmQuQN1-6" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="KDX1G06SCl55TOmQuQN1-3" target="KDX1G06SCl55TOmQuQN1-5" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="1480" y="930" as="sourcePoint" />
             <mxPoint x="1530" y="880" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="KDX1G06SCl55TOmQuQN1-7" value="Merge" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="KDX1G06SCl55TOmQuQN1-6">
+        <mxCell id="KDX1G06SCl55TOmQuQN1-7" value="Merge" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="KDX1G06SCl55TOmQuQN1-6" vertex="1" connectable="0">
           <mxGeometry x="-0.0815" y="2" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="KDX1G06SCl55TOmQuQN1-8" value="B Tree (Optimized for fast read)&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Self Balanced tree on DISK&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;div&gt;[WRITE]&lt;br&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;[READ]&lt;/div&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+        <mxCell id="KDX1G06SCl55TOmQuQN1-8" value="B Tree (Optimized for fast read)&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Self Balanced tree on DISK&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;div&gt;[WRITE]&lt;br&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;[READ]&lt;/div&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" parent="1" vertex="1">
           <mxGeometry x="980" y="429.25" width="570" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="cninYpx8410H4YJr9ggT-2" value="Cassandra&lt;div&gt;PartitionKey - ClusteringKey&lt;/div&gt;&lt;div&gt;Keep Related Data in the same host to avoid cross shard queries.&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Nomalizaion - Reduce data redundancy&amp;nbsp;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="160" y="890" width="270" height="140" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
