@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36 Edg/137.0.0.0" version="28.2.5">
   <diagram name="Page-1" id="P5muPFHz2gZ1AS87yahM">
-    <mxGraphModel dx="2058" dy="1112" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1418" dy="872" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -248,7 +248,7 @@
         <mxCell id="KDX1G06SCl55TOmQuQN1-8" value="B Tree (Optimized for fast read)&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Self Balanced tree on DISK&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;div&gt;[WRITE]&lt;br&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;[READ]&lt;/div&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" parent="1" vertex="1">
           <mxGeometry x="980" y="429.25" width="570" height="180" as="geometry" />
         </mxCell>
-        <mxCell id="cninYpx8410H4YJr9ggT-2" value="Cassandra&lt;div&gt;PartitionKey - ClusteringKey&lt;/div&gt;&lt;div&gt;Keep Related Data in the same host to avoid cross shard queries.&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Nomalizaion - Reduce data redundancy&amp;nbsp;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="cninYpx8410H4YJr9ggT-2" value="Cassandra&lt;div&gt;PartitionKey(Can be composite) - ClusteringKey&lt;/div&gt;&lt;div&gt;Keep Related Data in the same host to avoid cross shard queries.&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Nomalizaion - Reduce data redundancy&amp;nbsp;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="160" y="890" width="270" height="140" as="geometry" />
         </mxCell>
       </root>
