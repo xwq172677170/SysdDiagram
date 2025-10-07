@@ -138,7 +138,7 @@
         <mxCell id="1iikRygat-jRjVivOJMq-2" value="1. Data Replication&lt;br&gt;2. Partition Rebalancing&lt;br&gt;3. Hot Shard Problem&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" parent="1" vertex="1">
           <mxGeometry x="470" y="800" width="190" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="dLB5FPAA_UwGwQn23aW7-2" value="Ad Aggregator&lt;div&gt;1. Separate Read and Write DB&lt;/div&gt;&lt;div&gt;2. Cron Scheduler - Spark to aggregate write db to read db in minute granularity.&lt;/div&gt;&lt;div&gt;3. Ad placement service passing ID instead of full a d URL&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;2+. Use Flink instead of Cron Job&amp;nbsp;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+        <mxCell id="dLB5FPAA_UwGwQn23aW7-2" value="Ad Aggregator&lt;div&gt;1. Separate Read and Write DB&lt;/div&gt;&lt;div&gt;2. Cron Scheduler - Spark to aggregate write db to read db in minute granularity.&lt;/div&gt;&lt;div&gt;3. Ad placement service passing ID instead of full ad URL&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;2+. Use Flink instead of Cron Job&amp;nbsp;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="960" y="270" width="290" height="110" as="geometry" />
         </mxCell>
         <mxCell id="dLB5FPAA_UwGwQn23aW7-3" value="Text" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
