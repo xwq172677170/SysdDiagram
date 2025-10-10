@@ -147,6 +147,9 @@
         <mxCell id="dLB5FPAA_UwGwQn23aW7-6" value="Periodic Reconciliation" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="960" y="400" width="340" height="100" as="geometry" />
         </mxCell>
+        <mxCell id="3DfZOUERl799rNxI_Sbx-1" value="Flink - Pure Streaming&lt;div&gt;Spark - Mini Batching&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="40" y="850" width="410" height="60" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
