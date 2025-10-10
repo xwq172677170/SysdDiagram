@@ -245,14 +245,17 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="KDX1G06SCl55TOmQuQN1-8" value="B Tree (Optimized for fast read)&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Self Balanced tree on DISK&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;div&gt;[WRITE]&lt;br&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;[READ]&lt;/div&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" parent="1" vertex="1">
+        <mxCell id="KDX1G06SCl55TOmQuQN1-8" value="B Tree (Optimized for fast read)&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;self balanced, ordered, multi-level tree on DISK&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;div&gt;[WRITE]&lt;br&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;[READ]&lt;/div&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" parent="1" vertex="1">
           <mxGeometry x="980" y="429.25" width="570" height="180" as="geometry" />
         </mxCell>
-        <mxCell id="cninYpx8410H4YJr9ggT-2" value="Cassandra&lt;div&gt;PartitionKey(Can be composite) - ClusteringKey&lt;/div&gt;&lt;div&gt;Keep Related Data in the same host to avoid cross shard queries.&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Nomalizaion - Reduce data redundancy&amp;nbsp;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="cninYpx8410H4YJr9ggT-2" value="Cassandra&lt;div&gt;PartitionKey(Can be composite) - ClusteringKey&lt;/div&gt;&lt;div&gt;Keep Related Data in the same host to avoid cross shard queries.&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Nomalizaion - Reduce data redundancy&amp;nbsp;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="160" y="890" width="270" height="140" as="geometry" />
         </mxCell>
-        <mxCell id="cninYpx8410H4YJr9ggT-3" value="Rest vs GraphQL&lt;div&gt;GraphQL is more flexible that it allows the user to fetch exact columns they need (reduces overfetching and underfetching)&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="cninYpx8410H4YJr9ggT-3" value="Rest vs GraphQL&lt;div&gt;GraphQL is more flexible that it allows the user to fetch exact columns they need (reduces overfetching and underfetching)&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="490" y="900" width="410" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="clf4LCWxftLQsTQVuVSI-1" value="Read Repair&lt;div&gt;Anti-Entropy - ensure sync and consistency&lt;/div&gt;&lt;div&gt;Gossip Protocol (leaderless/decentralized)- eventual consistency&lt;/div&gt;&lt;div&gt;Merkle Tree - hierarchical data structure where each node represents a hash of a portion of the data.&lt;/div&gt;&lt;div&gt;Hinted Handoff - eventual consistency&lt;/div&gt;&lt;div&gt;LRW (Last Write Wins) - Clock Drift&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;ACID Transaction -&amp;gt; Row Level Locking&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="160" y="1030" width="770" height="110" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
