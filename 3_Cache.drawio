@@ -249,10 +249,10 @@
           <mxGeometry x="980" y="429.25" width="570" height="180" as="geometry" />
         </mxCell>
         <mxCell id="cninYpx8410H4YJr9ggT-3" value="Rest vs GraphQL&lt;div&gt;GraphQL is more flexible that it allows the user to fetch exact columns they need (reduces overfetching and underfetching)&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="1010" y="930" width="410" height="60" as="geometry" />
+          <mxGeometry x="920" y="930" width="410" height="60" as="geometry" />
         </mxCell>
         <mxCell id="clf4LCWxftLQsTQVuVSI-2" value="MongoDB&lt;div&gt;Schemaless&lt;/div&gt;&lt;div&gt;B-Tree&lt;/div&gt;&lt;div&gt;Consistency Gurantee of SQL&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
-          <mxGeometry x="930" y="1070" width="220" height="60" as="geometry" />
+          <mxGeometry x="920" y="1020" width="220" height="60" as="geometry" />
         </mxCell>
         <mxCell id="clf4LCWxftLQsTQVuVSI-3" value="Cassandra&lt;div style=&quot;forced-color-adjust: none;&quot;&gt;PartitionKey(Can be composite) - ClusteringKey&lt;/div&gt;&lt;div style=&quot;forced-color-adjust: none;&quot;&gt;Keep Related Data in the same host to avoid cross shard queries.&lt;/div&gt;&lt;div style=&quot;forced-color-adjust: none;&quot;&gt;Denormalized&lt;/div&gt;&lt;div style=&quot;forced-color-adjust: none;&quot;&gt;Nomalizaion - Reduce data redundancy&amp;nbsp;&lt;/div&gt;&lt;div style=&quot;forced-color-adjust: none;&quot;&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Read Repair&lt;/span&gt;&lt;/div&gt;&lt;div&gt;Anti-Entropy - ensure sync and consistency&lt;/div&gt;&lt;div&gt;Gossip Protocol (leaderless/decentralized)- eventual consistency&lt;/div&gt;&lt;div&gt;Merkle Tree - hierarchical data structure where each node represents a hash of a portion of the data.&lt;/div&gt;&lt;div&gt;Hinted Handoff - eventual consistency&lt;/div&gt;&lt;div&gt;LRW (Last Write Wins) - Clock Drift&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Row Level Locking, no ACID transaction support&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
           <mxGeometry x="115" y="870" width="510" height="220" as="geometry" />
