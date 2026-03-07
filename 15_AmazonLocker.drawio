@@ -1,0 +1,106 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36 Edg/137.0.0.0" version="28.2.5">
+  <diagram name="Page-1" id="Y6eKsyUqFfshavB-rKo6">
+    <mxGraphModel dx="2058" dy="1112" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="VfOgpz1cqz4TCtgIjr0e-1" value="Driver Client" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="20" y="290" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="VfOgpz1cqz4TCtgIjr0e-2" value="Rider Client" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="20" y="390" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="VfOgpz1cqz4TCtgIjr0e-4" value="Map Service" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="360" y="240" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="VfOgpz1cqz4TCtgIjr0e-5" value="Pricing Service" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="360" y="330" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="VfOgpz1cqz4TCtgIjr0e-7" value="" style="endArrow=classic;html=1;rounded=0;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="480" y="260" as="sourcePoint" />
+            <mxPoint x="530" y="210" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VfOgpz1cqz4TCtgIjr0e-8" value="Geo-based search&lt;br&gt;Geospatial Indexing&amp;nbsp;&amp;nbsp;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="530" y="170" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="VfOgpz1cqz4TCtgIjr0e-9" value="Shortest/Quickest Path" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="530" y="250" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="VfOgpz1cqz4TCtgIjr0e-10" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="VfOgpz1cqz4TCtgIjr0e-4" target="VfOgpz1cqz4TCtgIjr0e-9" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="670" y="430" as="sourcePoint" />
+            <mxPoint x="720" y="380" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VfOgpz1cqz4TCtgIjr0e-11" value="Real-Time Pricing based on Demand" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="530" y="330" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="VfOgpz1cqz4TCtgIjr0e-12" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="VfOgpz1cqz4TCtgIjr0e-5" target="VfOgpz1cqz4TCtgIjr0e-11" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="570" y="440" as="sourcePoint" />
+            <mxPoint x="620" y="390" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VfOgpz1cqz4TCtgIjr0e-13" value="Matching Service" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="360" y="420" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="VfOgpz1cqz4TCtgIjr0e-14" value="Payment Service" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="360" y="510" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="VfOgpz1cqz4TCtgIjr0e-15" value="Kafka" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.direct_data;whiteSpace=wrap;" parent="1" vertex="1">
+          <mxGeometry x="170" y="340" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="VfOgpz1cqz4TCtgIjr0e-17" value="NoSql" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.database;whiteSpace=wrap;" parent="1" vertex="1">
+          <mxGeometry x="570" y="420" width="80" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="VfOgpz1cqz4TCtgIjr0e-19" value="" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="160" y="160" width="170" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="VfOgpz1cqz4TCtgIjr0e-16" value="&lt;br&gt;Relational&amp;nbsp;&lt;br&gt;Database" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.database;whiteSpace=wrap;" parent="1" vertex="1">
+          <mxGeometry x="240" y="213.75" width="80" height="72.5" as="geometry" />
+        </mxCell>
+        <mxCell id="VfOgpz1cqz4TCtgIjr0e-18" value="Redis" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" parent="1" vertex="1">
+          <mxGeometry x="170" y="210" width="60" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="VfOgpz1cqz4TCtgIjr0e-20" value="Meta Data Service" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="170" y="170" width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="VfOgpz1cqz4TCtgIjr0e-21" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="VfOgpz1cqz4TCtgIjr0e-13" target="VfOgpz1cqz4TCtgIjr0e-17" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="270" y="570" as="sourcePoint" />
+            <mxPoint x="320" y="520" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VfOgpz1cqz4TCtgIjr0e-22" value="Location to coordinate transformation" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="530" y="90" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="6CocpNowR1pE_EUjfdPT-1" value="" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="160" y="430" width="170" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="6CocpNowR1pE_EUjfdPT-2" value="Relational&amp;nbsp;&lt;br&gt;Database" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.database;whiteSpace=wrap;" parent="1" vertex="1">
+          <mxGeometry x="240" y="485" width="80" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="6CocpNowR1pE_EUjfdPT-3" value="Redis" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" parent="1" vertex="1">
+          <mxGeometry x="170" y="480" width="60" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="6CocpNowR1pE_EUjfdPT-4" value="User Service" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="170" y="440" width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="6CocpNowR1pE_EUjfdPT-5" value="Trip Data" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="490" y="420" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="jU77QucXAsKBHoHEZJI7-1" value="&lt;div&gt;&lt;b&gt;Geospacial Searching &amp;amp; Indexing&lt;/b&gt;&lt;/div&gt;[&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Redis]GeoHashing:&lt;/span&gt;&lt;div&gt;&lt;div&gt;1. Good for even distribution&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;QuadTree (Divide the space with given k value):&lt;/span&gt;&lt;div&gt;1. Good for uneven density&lt;/div&gt;&lt;div&gt;2. Infrequent Updates (expensive to re-index)&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="40" y="620" width="550" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="jU77QucXAsKBHoHEZJI7-2" value="&lt;b&gt;Consistency of&amp;nbsp;Rider &amp;amp; Driver Matching&lt;/b&gt;&lt;div&gt;&lt;div&gt;1. No more than one request sent per ride&lt;/div&gt;&lt;div&gt;2. No more than one request received per driver&lt;/div&gt;&lt;/div&gt;&lt;div&gt;3. Distributed Lock (Redis)&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="400" y="610" width="270" height="65" as="geometry" />
+        </mxCell>
+        <mxCell id="jU77QucXAsKBHoHEZJI7-3" value="&lt;b&gt;Surge Handling&lt;/b&gt;&lt;br&gt;&lt;div&gt;&lt;div&gt;1. Nodes coordination&lt;/div&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="400" y="700" width="270" height="65" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
