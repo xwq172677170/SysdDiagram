@@ -157,6 +157,9 @@
         <mxCell id="j4WhhIceSDVNQCwKZX3X-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="FailOpen vs FailClose" vertex="1">
           <mxGeometry height="60" width="120" y="590" as="geometry" />
         </mxCell>
+        <mxCell id="j4WhhIceSDVNQCwKZX3X-2" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Refill rate&lt;div&gt;Bucket size&lt;/div&gt;" vertex="1">
+          <mxGeometry height="30" width="88" x="560" y="225" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
