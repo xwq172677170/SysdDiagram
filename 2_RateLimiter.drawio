@@ -73,17 +73,17 @@
         <mxCell id="ZfvZOJsGU5n2SvOtCY_8-31" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1" value="Rate Limiter Service" vertex="1">
           <mxGeometry height="30" width="140" x="410" y="410" as="geometry" />
         </mxCell>
-        <mxCell id="ZfvZOJsGU5n2SvOtCY_8-32" parent="1" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" value="Token Cache&lt;br&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;1. Shared&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;2. Low TTL&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;3. Atomic&lt;/span&gt;&lt;/div&gt;" vertex="1">
-          <mxGeometry height="120" width="80" x="370" y="460" as="geometry" />
+        <mxCell id="ZfvZOJsGU5n2SvOtCY_8-32" parent="1" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" value="Token Cache&lt;br&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;1. Shared&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;2. Low TTL&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;3. Atomic&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;4. Sharded by ID, MOD/Consisntent Hashing&lt;/span&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="130" width="120" x="361.5" y="450" as="geometry" />
         </mxCell>
         <mxCell id="ZfvZOJsGU5n2SvOtCY_8-34" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" target="ZfvZOJsGU5n2SvOtCY_8-35" value="">
           <mxGeometry height="50" relative="1" width="50" as="geometry">
-            <mxPoint x="450" y="495" as="sourcePoint" />
+            <mxPoint x="480" y="495" as="sourcePoint" />
             <mxPoint x="570" y="460" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="ZfvZOJsGU5n2SvOtCY_8-35" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(251, 251, 251); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;allowRequest(request)&lt;/span&gt;" vertex="1">
-          <mxGeometry height="100" width="137" x="473" y="470" as="geometry" />
+          <mxGeometry height="100" width="100" x="510" y="470" as="geometry" />
         </mxCell>
         <mxCell id="ZfvZOJsGU5n2SvOtCY_8-36" edge="1" parent="1" source="ZfvZOJsGU5n2SvOtCY_8-35" style="endArrow=classic;html=1;rounded=0;entryX=0.982;entryY=0.608;entryDx=0;entryDy=0;entryPerimeter=0;exitX=-0.002;exitY=0.632;exitDx=0;exitDy=0;exitPerimeter=0;" target="ZfvZOJsGU5n2SvOtCY_8-32" value="">
           <mxGeometry height="50" relative="1" width="50" as="geometry">
