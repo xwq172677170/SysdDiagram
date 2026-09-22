@@ -4,6 +4,9 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="mGYQkPl_X-rbd5VRY0Bs-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;" value="Parking Lot&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;API Design&lt;/div&gt;&lt;div&gt;Retry -&amp;gt; Exponential Backoff -&amp;gt; Jitter&lt;/div&gt;" vertex="1">
+          <mxGeometry height="1100" width="850" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
