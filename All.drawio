@@ -2466,7 +2466,7 @@
           <mxGeometry height="90" width="150" x="-100" y="11190" as="geometry" />
         </mxCell>
         <mxCell id="3s2_CCOf05-d0Q_DdKy5-5" parent="1" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;" value="Find Closest Parking from Entry:&lt;div&gt;1. lgn space enter/leave to maintain min Heap.&lt;/div&gt;&lt;div&gt;2. One min heap per entry.&lt;/div&gt;" vertex="1">
-          <mxGeometry height="160" width="270" x="-800" y="11310" as="geometry" />
+          <mxGeometry height="50" width="270" x="-800" y="11310" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
