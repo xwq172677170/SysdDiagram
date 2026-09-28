@@ -2474,6 +2474,9 @@
         <mxCell id="TeSORqtzWvySJ_FNTD0e-3" parent="1" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;" value="&lt;div&gt;Entities:&lt;/div&gt;1. LockerStation(Id, LocName, Zip, Size, availableSize, hoursOfOperation)&lt;div&gt;2. LockerCompartment(LockerCompartmentId, LockerStationId, Size, status)&lt;br&gt;&lt;div&gt;2. Package(id, orderId, useId, compartmentId, Size, status)&lt;/div&gt;&lt;div&gt;3. Ticket(ticketId, packageId, issueTs, expiresIn, isActive)&lt;/div&gt;&lt;div&gt;4. User(Id, username, password)&lt;/div&gt;&lt;/div&gt;" vertex="1">
           <mxGeometry height="100" width="450" x="-440" y="10690" as="geometry" />
         </mxCell>
+        <mxCell id="TeSORqtzWvySJ_FNTD0e-4" parent="1" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;" value="Challenges:&lt;div&gt;1. Concurrency/Race Conditions on compartment allocation. - 1. Use database transaction (ACID compliant DB). 2. Implement a lock&lt;/div&gt;&lt;div&gt;2. Network Interruptions at locker station. - Edge Caching. - Validate locally&lt;/div&gt;&lt;div&gt;3. Security/Fraud. - 1. Rate Limiting. MFA(Multi Factor Auth)&lt;/div&gt;&lt;div&gt;4. Search - Geospacial Index&lt;/div&gt;" vertex="1">
+          <mxGeometry height="80" width="860" x="-810" y="10810" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
