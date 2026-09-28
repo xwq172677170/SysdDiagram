@@ -2468,6 +2468,12 @@
         <mxCell id="3s2_CCOf05-d0Q_DdKy5-5" parent="1" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;" value="Find Closest Parking from Entry:&lt;div&gt;1. lgn to enter/leave to maintain min Heap.&lt;/div&gt;&lt;div&gt;2. One min heap per entry.&lt;/div&gt;" vertex="1">
           <mxGeometry height="50" width="270" x="-800" y="11310" as="geometry" />
         </mxCell>
+        <mxCell id="TeSORqtzWvySJ_FNTD0e-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;" value="Functional Requirement&lt;br&gt;&lt;div&gt;1. Search available(closest) locker station with criteria.&lt;div&gt;2. drop-off&lt;br&gt;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;3. pick-up&lt;/div&gt;" vertex="1">
+          <mxGeometry height="100" width="330" x="-810" y="10690" as="geometry" />
+        </mxCell>
+        <mxCell id="TeSORqtzWvySJ_FNTD0e-3" parent="1" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;" value="&lt;div&gt;Entities:&lt;/div&gt;1. LockerStation(Id, LocName, Zip, Size, availableSize, hoursOfOperation)&lt;div&gt;2. LockerCompartment(LockerCompartmentId, LockerStationId, Size, status)&lt;br&gt;&lt;div&gt;2. Package(id, orderId, useId, compartmentId, Size, status)&lt;/div&gt;&lt;div&gt;3. Ticket(ticketId, packageId, issueTs, expiresIn, isActive)&lt;/div&gt;&lt;div&gt;4. User(Id, username, password)&lt;/div&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="100" width="450" x="-440" y="10690" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
