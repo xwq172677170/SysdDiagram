@@ -140,8 +140,8 @@
         <mxCell id="Zn0t2Rko6OTNFW_Vc6NQ-3" parent="1" style="rounded=0;whiteSpace=wrap;html=1;align=left;" value="Retention Policy&lt;br&gt;&lt;div&gt;1. retention.ms&lt;/div&gt;&lt;div&gt;2. retention.bytes&lt;/div&gt;" vertex="1">
           <mxGeometry height="60" width="195" x="-280" y="660" as="geometry" />
         </mxCell>
-        <mxCell id="tNwQA_tJoecOhuGAk6w_-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;align=left;" value="publish(bytes[] payload, topic)&lt;div&gt;subscribe(topic)&lt;/div&gt;" vertex="1">
-          <mxGeometry height="60" width="320" x="-570" y="420" as="geometry" />
+        <mxCell id="tNwQA_tJoecOhuGAk6w_-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;align=left;" value="publish(Ikey, payload, topic)&lt;div&gt;subscribe(topic, group)&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="195" x="-445" y="420" as="geometry" />
         </mxCell>
         <mxCell id="GJFPDjy6MhhzEre6OTod-1" parent="1" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" value="Push Notification" vertex="1">
           <mxGeometry height="50" width="290" x="50" y="750" as="geometry" />
