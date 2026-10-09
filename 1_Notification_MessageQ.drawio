@@ -132,19 +132,19 @@
           <mxGeometry height="30" width="240" x="440" y="650" as="geometry" />
         </mxCell>
         <mxCell id="Zn0t2Rko6OTNFW_Vc6NQ-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;align=left;" value="Handle Hot Partitions&lt;div&gt;1. Regenerate key (Partition key)&lt;/div&gt;&lt;div&gt;2. Append Number 1 - N to the key.&lt;/div&gt;&lt;div&gt;3. Backpressure.&lt;/div&gt;" vertex="1">
-          <mxGeometry height="80" width="190" x="-255" y="600" as="geometry" />
+          <mxGeometry height="60" width="190" x="-280" y="595" as="geometry" />
         </mxCell>
         <mxCell id="Zn0t2Rko6OTNFW_Vc6NQ-2" parent="1" style="rounded=0;whiteSpace=wrap;html=1;align=left;" value="Producer&lt;div&gt;1. Batch messages&lt;/div&gt;&lt;div&gt;2. Compress Messages&lt;/div&gt;" vertex="1">
-          <mxGeometry height="60" width="195" x="-255" y="530" as="geometry" />
+          <mxGeometry height="60" width="195" x="-275" y="530" as="geometry" />
         </mxCell>
         <mxCell id="Zn0t2Rko6OTNFW_Vc6NQ-3" parent="1" style="rounded=0;whiteSpace=wrap;html=1;align=left;" value="Retention Policy&lt;br&gt;&lt;div&gt;1. retention.ms&lt;/div&gt;&lt;div&gt;2. retention.bytes&lt;/div&gt;" vertex="1">
-          <mxGeometry height="60" width="195" x="-255" y="690" as="geometry" />
+          <mxGeometry height="60" width="195" x="-280" y="660" as="geometry" />
         </mxCell>
         <mxCell id="tNwQA_tJoecOhuGAk6w_-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;align=left;" value="publish(bytes[] payload, topic)&lt;div&gt;subscribe(topic)&lt;/div&gt;" vertex="1">
           <mxGeometry height="60" width="320" x="-570" y="420" as="geometry" />
         </mxCell>
         <mxCell id="GJFPDjy6MhhzEre6OTod-1" parent="1" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" value="Push Notification" vertex="1">
-          <mxGeometry height="50" width="290" x="120" y="770" as="geometry" />
+          <mxGeometry height="50" width="290" x="50" y="750" as="geometry" />
         </mxCell>
         <mxCell id="4W0m7rkBuaQ0rUqK8qg0-2" edge="1" parent="1" source="uigYJwYVuBVHVjmUfmwh-4" style="endArrow=classic;html=1;rounded=0;fontSize=12;startSize=8;endSize=8;curved=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.25;exitY=1;exitDx=0;exitDy=0;" target="uigYJwYVuBVHVjmUfmwh-1" value="">
           <mxGeometry height="50" relative="1" width="50" x="0.0596" y="1.58" as="geometry">
@@ -195,6 +195,18 @@
         <mxCell id="4W0m7rkBuaQ0rUqK8qg0-11" connectable="0" parent="4W0m7rkBuaQ0rUqK8qg0-10" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;" value="falied" vertex="1">
           <mxGeometry relative="1" x="0.1986" y="-1" as="geometry">
             <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4W0m7rkBuaQ0rUqK8qg0-12" parent="1" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;" value="Consumer Group Rebalancing&lt;div&gt;Max 1 consumer in the group per partition, other consumer will stay idle.&lt;/div&gt;" vertex="1">
+          <mxGeometry height="70" width="460" x="220" y="710" as="geometry" />
+        </mxCell>
+        <mxCell id="4W0m7rkBuaQ0rUqK8qg0-13" parent="1" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;" value="ack=0&lt;div&gt;ack=1&lt;/div&gt;&lt;div&gt;ack=all&lt;/div&gt;" vertex="1">
+          <mxGeometry height="80" width="40" x="-70" y="520" as="geometry" />
+        </mxCell>
+        <mxCell id="4W0m7rkBuaQ0rUqK8qg0-14" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;fontSize=12;startSize=8;endSize=8;curved=1;" target="4W0m7rkBuaQ0rUqK8qg0-13" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="-50" y="450" as="sourcePoint" />
+            <mxPoint x="100" y="430" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
