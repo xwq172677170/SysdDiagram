@@ -146,12 +146,6 @@
         <mxCell id="GJFPDjy6MhhzEre6OTod-1" parent="1" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" value="Push Notification" vertex="1">
           <mxGeometry height="50" width="290" x="120" y="770" as="geometry" />
         </mxCell>
-        <mxCell id="4W0m7rkBuaQ0rUqK8qg0-1" edge="1" parent="1" source="uigYJwYVuBVHVjmUfmwh-27" style="endArrow=classic;html=1;rounded=0;fontSize=12;startSize=8;endSize=8;curved=1;entryX=1;entryY=0.75;entryDx=0;entryDy=0;exitX=0.017;exitY=0.131;exitDx=0;exitDy=0;exitPerimeter=0;" target="uigYJwYVuBVHVjmUfmwh-4" value="">
-          <mxGeometry height="50" relative="1" width="50" as="geometry">
-            <mxPoint x="130" y="670" as="sourcePoint" />
-            <mxPoint x="180" y="620" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
         <mxCell id="4W0m7rkBuaQ0rUqK8qg0-2" edge="1" parent="1" source="uigYJwYVuBVHVjmUfmwh-4" style="endArrow=classic;html=1;rounded=0;fontSize=12;startSize=8;endSize=8;curved=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.25;exitY=1;exitDx=0;exitDy=0;" target="uigYJwYVuBVHVjmUfmwh-1" value="">
           <mxGeometry height="50" relative="1" width="50" x="0.0596" y="1.58" as="geometry">
             <Array as="points">
@@ -163,7 +157,7 @@
             <mxPoint x="30" y="480" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="4W0m7rkBuaQ0rUqK8qg0-3" connectable="0" parent="4W0m7rkBuaQ0rUqK8qg0-2" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;" value="ack" vertex="1">
+        <mxCell id="4W0m7rkBuaQ0rUqK8qg0-3" connectable="0" parent="4W0m7rkBuaQ0rUqK8qg0-2" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;" value="ack, backpressure" vertex="1">
           <mxGeometry relative="1" x="0.0716" y="-1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
