@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36 Edg/137.0.0.0">
   <diagram name="Page-1" id="w0UfUpUUfux1YmTYL3Qv">
-    <mxGraphModel dx="2271" dy="804" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="2896" dy="1158" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -108,7 +108,7 @@
           <mxGeometry height="90" width="90" x="275" y="590" as="geometry" />
         </mxCell>
         <mxCell id="uigYJwYVuBVHVjmUfmwh-31" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" value="Push vs Pull&lt;br&gt;1. Push - consumer is notified as soon as the message is available, easier for the consumer. May lead to hot key problem (Usage Spike for popular message). Not work/expensive for offline consumer.&lt;br&gt;2. Pull is easier for server implementation, but consumer needs to do more work. Delay for online consumer." vertex="1">
-          <mxGeometry height="140" width="310" x="440" y="420" as="geometry" />
+          <mxGeometry height="140" width="310" x="410" y="435" as="geometry" />
         </mxCell>
         <mxCell id="uigYJwYVuBVHVjmUfmwh-32" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" value="Service Discovery&lt;br&gt;Leader Election" vertex="1">
           <mxGeometry height="30" width="120" x="380" y="280" as="geometry" />
@@ -145,6 +145,43 @@
         </mxCell>
         <mxCell id="GJFPDjy6MhhzEre6OTod-1" parent="1" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" value="Push Notification" vertex="1">
           <mxGeometry height="50" width="290" x="120" y="770" as="geometry" />
+        </mxCell>
+        <mxCell id="4W0m7rkBuaQ0rUqK8qg0-1" edge="1" parent="1" source="uigYJwYVuBVHVjmUfmwh-27" style="endArrow=classic;html=1;rounded=0;fontSize=12;startSize=8;endSize=8;curved=1;entryX=1;entryY=0.75;entryDx=0;entryDy=0;exitX=0.017;exitY=0.131;exitDx=0;exitDy=0;exitPerimeter=0;" target="uigYJwYVuBVHVjmUfmwh-4" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="130" y="670" as="sourcePoint" />
+            <mxPoint x="180" y="620" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4W0m7rkBuaQ0rUqK8qg0-2" edge="1" parent="1" source="uigYJwYVuBVHVjmUfmwh-4" style="endArrow=classic;html=1;rounded=0;fontSize=12;startSize=8;endSize=8;curved=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.25;exitY=1;exitDx=0;exitDy=0;" target="uigYJwYVuBVHVjmUfmwh-1" value="">
+          <mxGeometry height="50" relative="1" width="50" x="0.0596" y="1.58" as="geometry">
+            <Array as="points">
+              <mxPoint x="130" y="440" />
+              <mxPoint x="20" y="440" />
+              <mxPoint x="-130" y="440" />
+            </Array>
+            <mxPoint x="130" y="440" as="sourcePoint" />
+            <mxPoint x="30" y="480" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4W0m7rkBuaQ0rUqK8qg0-3" connectable="0" parent="4W0m7rkBuaQ0rUqK8qg0-2" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;" value="ack" vertex="1">
+          <mxGeometry relative="1" x="0.0716" y="-1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4W0m7rkBuaQ0rUqK8qg0-6" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;fontSize=12;startSize=8;endSize=8;curved=1;entryX=1.022;entryY=0.231;entryDx=0;entryDy=0;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryPerimeter=0;" target="uigYJwYVuBVHVjmUfmwh-27" value="">
+          <mxGeometry height="50" relative="1" width="50" x="0.1749" y="1.58" as="geometry">
+            <Array as="points">
+              <mxPoint x="635" y="440" />
+              <mxPoint x="525" y="440" />
+            </Array>
+            <mxPoint x="635" y="420" as="sourcePoint" />
+            <mxPoint x="365" y="420" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4W0m7rkBuaQ0rUqK8qg0-7" connectable="0" parent="4W0m7rkBuaQ0rUqK8qg0-6" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;" value="commit offset" vertex="1">
+          <mxGeometry relative="1" x="0.1896" y="-1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
