@@ -41,14 +41,14 @@
             <mxPoint x="191" y="359" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="uigYJwYVuBVHVjmUfmwh-9" edge="1" parent="1" source="uigYJwYVuBVHVjmUfmwh-4" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" value="">
+        <mxCell id="uigYJwYVuBVHVjmUfmwh-9" edge="1" parent="1" source="uigYJwYVuBVHVjmUfmwh-4" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.376;entryY=0.003;entryDx=0;entryDy=0;entryPerimeter=0;" target="uigYJwYVuBVHVjmUfmwh-12" value="">
           <mxGeometry height="50" relative="1" width="50" as="geometry">
             <mxPoint x="290" y="520" as="sourcePoint" />
             <mxPoint x="160" y="450" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="uigYJwYVuBVHVjmUfmwh-12" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" value="Request Validation&lt;br&gt;Authentication&lt;br&gt;Authorization&lt;br&gt;TLS Termination&lt;br&gt;Encryption&lt;br&gt;Rate Limiting&lt;br&gt;Auditing" vertex="1">
-          <mxGeometry height="110" width="110" x="110" y="450" as="geometry" />
+          <mxGeometry height="110" width="110" x="120" y="505" as="geometry" />
         </mxCell>
         <mxCell id="uigYJwYVuBVHVjmUfmwh-14" edge="1" parent="1" source="uigYJwYVuBVHVjmUfmwh-4" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" value="">
           <mxGeometry height="50" relative="1" width="50" as="geometry">
@@ -128,7 +128,7 @@
             <mxPoint x="500" y="540" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="r8DuBiU2IM3-_VSogjTA-2" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" value="Consumer Retry + Idempotent Processing = Exact once" vertex="1">
+        <mxCell id="r8DuBiU2IM3-_VSogjTA-2" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" value="Consumer Retry + Idempotent Processing = effectively once" vertex="1">
           <mxGeometry height="30" width="240" x="440" y="650" as="geometry" />
         </mxCell>
         <mxCell id="Zn0t2Rko6OTNFW_Vc6NQ-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;align=left;" value="Handle Hot Partitions&lt;div&gt;1. Regenerate key (Partition key)&lt;/div&gt;&lt;div&gt;2. Append Number 1 - N to the key.&lt;/div&gt;&lt;div&gt;3. Backpressure.&lt;/div&gt;" vertex="1">
@@ -168,7 +168,7 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="4W0m7rkBuaQ0rUqK8qg0-6" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;fontSize=12;startSize=8;endSize=8;curved=1;entryX=1.022;entryY=0.231;entryDx=0;entryDy=0;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryPerimeter=0;" target="uigYJwYVuBVHVjmUfmwh-27" value="">
+        <mxCell id="4W0m7rkBuaQ0rUqK8qg0-6" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;fontSize=12;startSize=8;endSize=8;curved=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.25;exitY=1;exitDx=0;exitDy=0;" target="uigYJwYVuBVHVjmUfmwh-16" value="">
           <mxGeometry height="50" relative="1" width="50" x="0.1749" y="1.58" as="geometry">
             <Array as="points">
               <mxPoint x="635" y="440" />
@@ -180,6 +180,26 @@
         </mxCell>
         <mxCell id="4W0m7rkBuaQ0rUqK8qg0-7" connectable="0" parent="4W0m7rkBuaQ0rUqK8qg0-6" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;" value="commit offset" vertex="1">
           <mxGeometry relative="1" x="0.1896" y="-1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4W0m7rkBuaQ0rUqK8qg0-9" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="Dead-Letter-Queue" vertex="1">
+          <mxGeometry height="60" width="120" x="-200" y="455" as="geometry" />
+        </mxCell>
+        <mxCell id="4W0m7rkBuaQ0rUqK8qg0-10" edge="1" parent="1" source="uigYJwYVuBVHVjmUfmwh-4" style="endArrow=classic;html=1;rounded=0;fontSize=12;startSize=8;endSize=8;curved=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0.75;exitY=1;exitDx=0;exitDy=0;" target="4W0m7rkBuaQ0rUqK8qg0-9" value="">
+          <mxGeometry height="50" relative="1" width="50" x="0.1874" y="1.58" as="geometry">
+            <Array as="points">
+              <mxPoint x="205" y="490" />
+              <mxPoint x="140" y="490" />
+              <mxPoint x="95" y="490" />
+              <mxPoint x="-55" y="490" />
+            </Array>
+            <mxPoint x="205" y="470" as="sourcePoint" />
+            <mxPoint x="-65" y="470" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4W0m7rkBuaQ0rUqK8qg0-11" connectable="0" parent="4W0m7rkBuaQ0rUqK8qg0-10" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;" value="falied" vertex="1">
+          <mxGeometry relative="1" x="0.1986" y="-1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
