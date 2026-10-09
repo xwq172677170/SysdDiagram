@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36 Edg/137.0.0.0">
   <diagram name="Page-1" id="w0UfUpUUfux1YmTYL3Qv">
-    <mxGraphModel dx="2896" dy="1158" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="2271" dy="804" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -75,15 +75,15 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="uigYJwYVuBVHVjmUfmwh-20" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="Subscriber" vertex="1">
-          <mxGeometry height="60" width="120" x="580" y="360" as="geometry" />
+          <mxGeometry height="60" width="120" x="580" y="370" as="geometry" />
         </mxCell>
         <mxCell id="uigYJwYVuBVHVjmUfmwh-22" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" value="Retry/Dedup" vertex="1">
           <mxGeometry height="30" width="60" x="350" y="330" as="geometry" />
         </mxCell>
-        <mxCell id="uigYJwYVuBVHVjmUfmwh-25" edge="1" parent="1" source="uigYJwYVuBVHVjmUfmwh-16" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="uigYJwYVuBVHVjmUfmwh-20" value="">
+        <mxCell id="uigYJwYVuBVHVjmUfmwh-25" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" value="">
           <mxGeometry height="50" relative="1" width="50" as="geometry">
-            <mxPoint x="580" y="370" as="sourcePoint" />
-            <mxPoint x="630" y="320" as="targetPoint" />
+            <mxPoint x="540" y="408" as="sourcePoint" />
+            <mxPoint x="580" y="408" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="uigYJwYVuBVHVjmUfmwh-26" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" value="Order Guaranteed within partition" vertex="1">
@@ -105,7 +105,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="uigYJwYVuBVHVjmUfmwh-19" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" value="&lt;br&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;NoSql&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Sharding/Replication&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Use Counting Semaphore to restrict too many&amp;nbsp; access&lt;/span&gt;&lt;/div&gt;" vertex="1">
-          <mxGeometry height="90" width="90" x="275" y="590" as="geometry" />
+          <mxGeometry height="90" width="90" x="275" y="560" as="geometry" />
         </mxCell>
         <mxCell id="uigYJwYVuBVHVjmUfmwh-31" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" value="Push vs Pull&lt;br&gt;1. Push - consumer is notified as soon as the message is available, easier for the consumer. May lead to hot key problem (Usage Spike for popular message). Not work/expensive for offline consumer.&lt;br&gt;2. Pull is easier for server implementation, but consumer needs to do more work. Delay for online consumer." vertex="1">
           <mxGeometry height="140" width="310" x="410" y="435" as="geometry" />
@@ -140,8 +140,8 @@
         <mxCell id="Zn0t2Rko6OTNFW_Vc6NQ-3" parent="1" style="rounded=0;whiteSpace=wrap;html=1;align=left;" value="Retention Policy&lt;br&gt;&lt;div&gt;1. retention.ms&lt;/div&gt;&lt;div&gt;2. retention.bytes&lt;/div&gt;" vertex="1">
           <mxGeometry height="60" width="195" x="-280" y="660" as="geometry" />
         </mxCell>
-        <mxCell id="tNwQA_tJoecOhuGAk6w_-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;align=left;" value="publish(Ikey, payload, topic)&lt;div&gt;subscribe(topic, group)&lt;/div&gt;" vertex="1">
-          <mxGeometry height="60" width="195" x="-445" y="420" as="geometry" />
+        <mxCell id="tNwQA_tJoecOhuGAk6w_-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;align=left;" value="publish(key , payload, topic)&lt;div&gt;subscribe(topic, group)&lt;/div&gt;" vertex="1">
+          <mxGeometry height="40" width="160" x="-70" y="575" as="geometry" />
         </mxCell>
         <mxCell id="GJFPDjy6MhhzEre6OTod-1" parent="1" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" value="Push Notification" vertex="1">
           <mxGeometry height="50" width="290" x="50" y="750" as="geometry" />
@@ -162,8 +162,8 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="4W0m7rkBuaQ0rUqK8qg0-6" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;fontSize=12;startSize=8;endSize=8;curved=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.25;exitY=1;exitDx=0;exitDy=0;" target="uigYJwYVuBVHVjmUfmwh-16" value="">
-          <mxGeometry height="50" relative="1" width="50" x="0.1749" y="1.58" as="geometry">
+        <mxCell id="4W0m7rkBuaQ0rUqK8qg0-6" edge="1" parent="1" source="uigYJwYVuBVHVjmUfmwh-20" style="endArrow=classic;html=1;rounded=0;fontSize=12;startSize=8;endSize=8;curved=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" target="uigYJwYVuBVHVjmUfmwh-16" value="">
+          <mxGeometry height="50" relative="1" width="50" x="0.1287" y="1.58" as="geometry">
             <Array as="points">
               <mxPoint x="635" y="440" />
               <mxPoint x="525" y="440" />
@@ -173,40 +173,35 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="4W0m7rkBuaQ0rUqK8qg0-7" connectable="0" parent="4W0m7rkBuaQ0rUqK8qg0-6" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;" value="commit offset" vertex="1">
-          <mxGeometry relative="1" x="0.1896" y="-1" as="geometry">
+          <mxGeometry relative="1" x="0.1522" y="-1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="4W0m7rkBuaQ0rUqK8qg0-9" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="Dead-Letter-Queue" vertex="1">
-          <mxGeometry height="60" width="120" x="-200" y="455" as="geometry" />
-        </mxCell>
-        <mxCell id="4W0m7rkBuaQ0rUqK8qg0-10" edge="1" parent="1" source="uigYJwYVuBVHVjmUfmwh-4" style="endArrow=classic;html=1;rounded=0;fontSize=12;startSize=8;endSize=8;curved=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0.75;exitY=1;exitDx=0;exitDy=0;" target="4W0m7rkBuaQ0rUqK8qg0-9" value="">
-          <mxGeometry height="50" relative="1" width="50" x="0.1874" y="1.58" as="geometry">
-            <Array as="points">
-              <mxPoint x="205" y="490" />
-              <mxPoint x="140" y="490" />
-              <mxPoint x="95" y="490" />
-              <mxPoint x="-55" y="490" />
-            </Array>
-            <mxPoint x="205" y="470" as="sourcePoint" />
-            <mxPoint x="-65" y="470" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="4W0m7rkBuaQ0rUqK8qg0-11" connectable="0" parent="4W0m7rkBuaQ0rUqK8qg0-10" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;" value="falied" vertex="1">
-          <mxGeometry relative="1" x="0.1986" y="-1" as="geometry">
-            <mxPoint as="offset" />
-          </mxGeometry>
+          <mxGeometry height="60" width="120" x="550" y="270" as="geometry" />
         </mxCell>
         <mxCell id="4W0m7rkBuaQ0rUqK8qg0-12" parent="1" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;" value="Consumer Group Rebalancing&lt;div&gt;Max 1 consumer in the group per partition, other consumer will stay idle.&lt;/div&gt;" vertex="1">
           <mxGeometry height="70" width="460" x="220" y="710" as="geometry" />
         </mxCell>
         <mxCell id="4W0m7rkBuaQ0rUqK8qg0-13" parent="1" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;" value="ack=0&lt;div&gt;ack=1&lt;/div&gt;&lt;div&gt;ack=all&lt;/div&gt;" vertex="1">
-          <mxGeometry height="80" width="40" x="-70" y="520" as="geometry" />
+          <mxGeometry height="50" width="40" x="-70" y="520" as="geometry" />
         </mxCell>
         <mxCell id="4W0m7rkBuaQ0rUqK8qg0-14" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;fontSize=12;startSize=8;endSize=8;curved=1;" target="4W0m7rkBuaQ0rUqK8qg0-13" value="">
           <mxGeometry height="50" relative="1" width="50" as="geometry">
             <mxPoint x="-50" y="450" as="sourcePoint" />
             <mxPoint x="100" y="430" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4W0m7rkBuaQ0rUqK8qg0-15" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;fontSize=12;startSize=8;endSize=8;curved=1;entryX=0.439;entryY=0.967;entryDx=0;entryDy=0;entryPerimeter=0;" target="4W0m7rkBuaQ0rUqK8qg0-9" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <Array as="points" />
+            <mxPoint x="540" y="380" as="sourcePoint" />
+            <mxPoint x="590" y="330" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4W0m7rkBuaQ0rUqK8qg0-16" connectable="0" parent="4W0m7rkBuaQ0rUqK8qg0-15" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;" value="failed n times" vertex="1">
+          <mxGeometry relative="1" x="0.0105" y="1" as="geometry">
+            <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
       </root>
