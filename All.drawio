@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net">
   <diagram name="Page-1" id="6UqxpgVOoK3PyOjYMW72">
-    <mxGraphModel dx="2271" dy="804" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="3315" dy="1395" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -128,8 +128,8 @@
         <mxCell id="5af9ky3k0gCiHG0SZogs-35" parent="1" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" value="Push Notification (for notification system design only)" vertex="1">
           <mxGeometry height="40" width="210" x="-275" y="636" as="geometry" />
         </mxCell>
-        <mxCell id="5af9ky3k0gCiHG0SZogs-36" parent="1" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" value="&lt;h1&gt;Server Side Rate Limiter&lt;/h1&gt;" vertex="1">
-          <mxGeometry height="70" width="300" x="-375" y="1070" as="geometry" />
+        <mxCell id="5af9ky3k0gCiHG0SZogs-36" parent="1" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;autosizeText=1;fontSize=9;" value="&lt;h1&gt;Server Side Rate Limiter&lt;/h1&gt;" vertex="1">
+          <mxGeometry height="40" width="300" x="-345" y="1100" as="geometry" />
         </mxCell>
         <mxCell id="5af9ky3k0gCiHG0SZogs-37" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="Rules DB" vertex="1">
           <mxGeometry height="40" width="120" x="5" y="1030" as="geometry" />
@@ -192,7 +192,7 @@
           <mxGeometry height="70" width="170" x="250" y="1350" as="geometry" />
         </mxCell>
         <mxCell id="5af9ky3k0gCiHG0SZogs-51" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;" value="Push(Change Data Capture) - Oracle GoldenGate&lt;div&gt;Pull(refreshes periodically)&lt;/div&gt;&lt;div&gt;Choose push&lt;/div&gt;" vertex="1">
-          <mxGeometry height="60" width="300" x="145" y="1090" as="geometry" />
+          <mxGeometry height="60" width="300" x="140" y="1080" as="geometry" />
         </mxCell>
         <mxCell id="5af9ky3k0gCiHG0SZogs-52" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1" value="Rate Limiter Service&lt;div&gt;(Replicated&lt;span style=&quot;background-color: transparent; color: light-dark(#000000, var(--ge-light-color, #ffffff));&quot;&gt;)&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;&lt;br&gt;&lt;div&gt;&lt;span style=&quot;color: rgb(237, 237, 237); font-weight: 400; text-align: left; background-color: rgb(21, 21, 21);&quot;&gt;allowRequest(request)&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" vertex="1">
           <mxGeometry height="80" width="140" y="1226" as="geometry" />
@@ -200,10 +200,10 @@
         <mxCell id="5af9ky3k0gCiHG0SZogs-53" parent="1" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" value="Token Cache&lt;br&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;1. Shared&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;2. Atomic&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;3. Sharded by ID, &lt;strike&gt;MOD&lt;/strike&gt;/Consistent Hashing&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;4. Lazy refill&lt;/span&gt;&lt;/div&gt;" vertex="1">
           <mxGeometry height="160.26" width="120" x="-77" y="1390" as="geometry" />
         </mxCell>
-        <mxCell id="5af9ky3k0gCiHG0SZogs-57" edge="1" parent="1" source="5af9ky3k0gCiHG0SZogs-44" style="endArrow=classic;html=1;rounded=0;exitX=-0.008;exitY=0.899;exitDx=0;exitDy=0;exitPerimeter=0;" target="5af9ky3k0gCiHG0SZogs-59" value="">
+        <mxCell id="5af9ky3k0gCiHG0SZogs-57" edge="1" parent="1" source="5af9ky3k0gCiHG0SZogs-44" style="endArrow=classic;html=1;rounded=0;exitX=-0.008;exitY=0.899;exitDx=0;exitDy=0;exitPerimeter=0;" value="">
           <mxGeometry height="50" relative="1" width="50" as="geometry">
             <mxPoint x="-75" y="1330" as="sourcePoint" />
-            <mxPoint x="-195" y="1330" as="targetPoint" />
+            <mxPoint x="-130" y="1326.87" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="5af9ky3k0gCiHG0SZogs-58" connectable="0" parent="5af9ky3k0gCiHG0SZogs-57" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="Not_Allowed" vertex="1">
@@ -212,7 +212,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="5af9ky3k0gCiHG0SZogs-59" parent="1" style="rounded=1;whiteSpace=wrap;html=1;align=left;" value="1. 429 Too Many Requests (Fail Fast)&amp;nbsp;&lt;div&gt;Retry After Header.&lt;br&gt;&lt;strike&gt;2. Retry queue&lt;/strike&gt;&lt;/div&gt;" vertex="1">
-          <mxGeometry height="60" width="265" x="-505" y="1301" as="geometry" />
+          <mxGeometry height="60" width="265" x="-397.5" y="1301" as="geometry" />
         </mxCell>
         <mxCell id="5af9ky3k0gCiHG0SZogs-60" edge="1" parent="1" source="5af9ky3k0gCiHG0SZogs-44" style="endArrow=classic;html=1;rounded=0;exitX=0.995;exitY=0.815;exitDx=0;exitDy=0;exitPerimeter=0;" value="">
           <mxGeometry height="50" relative="1" width="50" as="geometry">
